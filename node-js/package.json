@@ -1,5 +1,5 @@
 {
-  "name": "js",
+  "name": "lib-markdown",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^3.0.0"
+    "chalk": "^4.1.2",
+    "node-fetch": "^3.2.10"
   }
 }
