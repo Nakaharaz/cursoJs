@@ -1,17 +1,30 @@
 {
-  "name": "lib-markdown",
+  "name": "js",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "ansi-styles": "^4.3.0",
+    "chalk": "^4.1.2",
+    "color-convert": "^2.0.1",
+    "color-name": "^1.1.4",
+    "data-uri-to-buffer": "^4.0.0",
+    "fetch-blob": "^3.2.0",
+    "formdata-polyfill": "^4.0.10",
+    "fs": "^0.0.1-security",
+    "has-flag": "^4.0.0",
+    "node-domexception": "^1.0.0",
+    "node-fetch": "^3.2.10",
+    "supports-color": "^7.2.0",
+    "web-streams-polyfill": "^3.2.1"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest ./test",
     "cli": "node cli.js ./arquivos/texto1.md"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "chalk": "^4.1.2",
-    "node-fetch": "^3.2.10"
-  }
+  "license": "ISC"
 }
